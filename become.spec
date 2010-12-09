@@ -1,6 +1,6 @@
 Name:		become
 Version:	0.1
-Release:	%mkrel 4
+Release:	%mkrel 5
 URL:		http://www.bindshell.net/tools/become
 Source:		http://www.bindshell.net/tools/become/become.tgz
 Summary:	Utility to changes the effective, or real, user and group id
