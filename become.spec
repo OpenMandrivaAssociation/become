@@ -1,6 +1,6 @@
 Name:		become
 Version:	0.1
-Release:	%mkrel 5
+Release:	%mkrel 4
 URL:		http://www.bindshell.net/tools/become
 Source:		http://www.bindshell.net/tools/become/become.tgz
 Summary:	Utility to changes the effective, or real, user and group id
@@ -31,4 +31,23 @@ lzma become.8
 %doc LICENSE
 %{_sbindir}/%{name}
 %{_mandir}/man8/%{name}.8.*
+
+
+
+%changelog
+* Tue Sep 01 2009 Thierry Vignaud <tvignaud@mandriva.com> 0.1-4mdv2010.0
++ Revision: 424029
+- rebuild
+
+* Wed Jul 23 2008 Thierry Vignaud <tvignaud@mandriva.com> 0.1-3mdv2009.0
++ Revision: 243210
+- rebuild
+
+* Thu Feb 14 2008 Thierry Vignaud <tvignaud@mandriva.com> 0.1-1mdv2008.1
++ Revision: 167826
+- fix no-buildroot-tag
+
+* Fri Aug 17 2007 Nicolas Vigier <nvigier@mandriva.com> 0.1-1mdv2008.0
++ Revision: 65018
+- Import become
 
