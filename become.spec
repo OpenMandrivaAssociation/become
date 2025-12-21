@@ -7,6 +7,7 @@ Summary:	Utility to changes the effective, or real, user and group id
 License:	BSD
 Group:		System/Base
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
+BuildRequires:	make
 %description
 The become utility changes the current effective, or real, user and
 group identity to those specified on the command line. The default shell
